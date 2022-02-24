@@ -1,0 +1,1 @@
+C:\onlyfriends_server\build\classes\kotlin\main\com\onlyfriendsapplication\ApplicationKt.class
