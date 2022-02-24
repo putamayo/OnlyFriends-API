@@ -1,2 +1,3 @@
-# Dating API
- Dating App API in Kotlin
+# OnlyFriends API
+
+API backend for content subscription service. 
