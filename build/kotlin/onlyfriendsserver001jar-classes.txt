@@ -1,1 +1,1 @@
-C:\OnlyFriends_server\build\classes\kotlin\main\com\onlyfriendsapplication\ApplicationKt.class
+C:\OnlyFriends_server\build\classes\kotlin\main\com\onlyfriendsapplication\ApplicationKt$module$1$1.class;C:\OnlyFriends_server\build\classes\kotlin\main\com\onlyfriendsapplication\ApplicationKt$module$1.class;C:\OnlyFriends_server\build\classes\kotlin\main\com\onlyfriendsapplication\ApplicationKt.class
