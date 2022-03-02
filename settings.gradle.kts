@@ -1,2 +1,1 @@
-rootProject.name = "onlyfriends_server"
-
+rootProject.name = "rest.onlyfriends.onlyfriends_server"
