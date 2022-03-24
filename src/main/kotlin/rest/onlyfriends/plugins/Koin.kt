@@ -1,6 +1,11 @@
 package rest.onlyfriends.plugins
 
 import io.ktor.application.*
+import org.koin.core.Koin
 
 
-class Application
+fun Application.configureKoin() {
+    install(Koin) {
+
+    }
+}
