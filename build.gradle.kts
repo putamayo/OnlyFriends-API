@@ -10,6 +10,7 @@ plugins {
 
 group = "rest.onlyfriends"
 version = "0.0.1"
+val koin_version= "3.2.0-beta-1"
 application {
     mainClass.set("io.ktor.server.netty.EngineMain")
 }
@@ -23,6 +24,8 @@ dependencies {
     implementation("io.ktor:ktor-serialization:$ktor_version")
     implementation("io.ktor:ktor-server-netty:$ktor_version")
     implementation("ch.qos.logback:logback-classic:$logback_version")
+    implementation("io.insert-koin:koin-ktor:$koin_version")
     testImplementation("io.ktor:ktor-server-tests:$ktor_version")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
+
 }
