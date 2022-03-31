@@ -1,0 +1,3 @@
+package rest.onlyfriends.repository
+
+FirebaseOptions
