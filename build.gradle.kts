@@ -28,5 +28,6 @@ dependencies {
     implementation("org.slf4j:slf4j-api:1.7.36")
     testImplementation("io.ktor:ktor-server-tests:$ktor_version")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
+    implementation ("com.google.firebase:firebase-admin:8.1.0")
 
 }
