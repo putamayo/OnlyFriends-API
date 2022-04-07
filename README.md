@@ -1,5 +1,5 @@
 # OnlyFriends API
 
-![](topbucks.gif)
+![](cumbia.gif)
 
-API backend for content subscription service. 
+Kotlin REST API server for content subscription service. 
