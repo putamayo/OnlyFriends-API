@@ -15,6 +15,5 @@ data class Star(
     val likes: Int,
     val photos: Map<Int, String>,
     val fans: List<String>,
-    val abilities: List<String>,
     val types: List<String>,
 )
