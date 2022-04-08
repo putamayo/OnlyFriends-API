@@ -158,6 +158,7 @@ class StarRepositoryLimitedImp : StarRepositoryLimit {
         Star(
             id = 11,
             name = "Cumbia Libertad",
+            image = "/images/11.jpg",
             about = "here to share my (mostly sfw) noodles \uD83C\uDF5D follow my main page for daily lewds, nudes & tease videos ~ ... So ya wanna see my titties, huh? ⬇️ read this! ✨ New weekly content including: lewds, nudes, + tease gifs & tease vids ✨ \uD83C\uDF38 cute & sexy captions",
             rating = 4.5,
             power = 225,
