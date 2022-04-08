@@ -3,6 +3,7 @@ package rest.onlyfriends.repository
 import rest.onlyfriends.models.Response
 import rest.onlyfriends.models.Star
 
+
 const val NEXT_PAGE_KEY = "nextPage"
 const val PREVIOUS_PAGE_KEY = "prevPage"
 
@@ -318,4 +319,5 @@ class StarRepositoryImplementation: StarRepository {
 //            emptyList()
 //        }
 //    }
+
 }

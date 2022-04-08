@@ -9,7 +9,7 @@ import rest.onlyfriends.models.Response
 
 fun Route.getAllStars() {
 
-    
+
     get("/onlyfriends/allstars") {
         try {
             val page = call.request.queryParameters["page"]?.toInt()
