@@ -5,7 +5,7 @@ import rest.onlyfriends.models.Star
 
 interface StarRepository {
 
-    val allstars: List<Star>
+    val allstars: Map<Int, List<Star>>
 
 
     suspend fun getAllStars(page: Int = 1): Response

@@ -8,7 +8,9 @@ import org.koin.ktor.ext.get
 import rest.onlyfriends.models.Response
 
 fun Route.getAllStars() {
-    get("/onlyfriends/stars") {
+
+    
+    get("/onlyfriends/allstars") {
         try {
             val page = call.request.queryParameters["page"]?.toInt()
                 ?: 1 //elvis operator :)

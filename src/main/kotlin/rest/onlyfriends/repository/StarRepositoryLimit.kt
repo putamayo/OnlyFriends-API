@@ -5,7 +5,7 @@ import rest.onlyfriends.models.Star
 
 interface StarRepositoryLimit {
 
-    val stars: List<Star>
+    public open val stars: List<Star>
 
 
     suspend fun getAllStars(page: Int = 1, limit: Int = 4): Response

@@ -16,7 +16,7 @@ fun Application.configureRouting() {
         getAllStars()
 
         static("resources/images") {
-
+            resources("images")
         }
     }
 }

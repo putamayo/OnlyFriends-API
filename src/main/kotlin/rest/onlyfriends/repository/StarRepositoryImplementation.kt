@@ -3,9 +3,12 @@ package rest.onlyfriends.repository
 import rest.onlyfriends.models.Response
 import rest.onlyfriends.models.Star
 
-class StarRepositoryImplementation : StarRepository {
+const val NEXT_PAGE_KEY = "nextPage"
+const val PREVIOUS_PAGE_KEY = "prevPage"
 
-    override val allstars: Map<Int, List<Star>> by lazy {
+class StarRepositoryImplementation: StarRepository {
+
+    override val allstars by lazy {
         mapOf(
             1 to page1,
             2 to page2,
@@ -14,7 +17,7 @@ class StarRepositoryImplementation : StarRepository {
         )
     }
 
-    override val page1 = listOf(
+    val page1 = listOf(
         Star(
             id = 1,
             name = "Cumbia Libertad",
@@ -75,8 +78,8 @@ class StarRepositoryImplementation : StarRepository {
             fans = listOf(),
             types = listOf("latin", "folk", "electronica")
         )
-    ),
-    override val page2 = listOf(
+    )
+     val page2 = listOf(
         Star(
             id = 5,
             name = "El Gran Poder",
@@ -138,7 +141,7 @@ class StarRepositoryImplementation : StarRepository {
             types = listOf("latin", "folk", "electronica"),
         ),
     )
-    override val page3 = listOf(
+     val page3 = listOf(
         Star(
             id = 9,
             name = "Cumbia Cosmonauts",
@@ -200,7 +203,7 @@ class StarRepositoryImplementation : StarRepository {
             types = listOf("latin", "folk", "electronica"),
         ),
     )
-    override val page4 = listOf(
+     val page4 = listOf(
         Star(
             id = 13,
             name = "Ondatrópica",
@@ -264,37 +267,55 @@ class StarRepositoryImplementation : StarRepository {
 
         )
 
-    override suspend fun getAllStars(page: Int, limit: Int): Response {
-        TODO("Not yet implemented")
+    override suspend fun getAllStars(page: Int): Response {
+        return Response(
+            succes = true,
+            message = "Succesful",
+            prevPage = calculatePage(page = page)[PREVIOUS_PAGE_KEY],
+            nextPage = calculatePage(page = page)[NEXT_PAGE_KEY],
+            allStars = allstars[page]!!
+        )
+    }
+    private fun calculatePage(page: Int): Map<String, Int?> {
+        var prevPage: Int? = page
+        var nextPage: Int? = page
+        if(page in 1..4) {
+            nextPage = nextPage?.plus(1)
+        }
+        if(page in 2..5) {
+            prevPage = prevPage?.minus(1)
+        }
+        if (page == 1) {
+            prevPage = null
+        }
+        if (page == 4) {
+            prevPage = null
+        }
+        return mapOf(PREVIOUS_PAGE_KEY to prevPage, NEXT_PAGE_KEY to nextPage)
     }
 
     override suspend fun searchStars(name: String): Response {
         return Response(
             succes = true,
             message = "Oke",
-            allStars = findStars(query = name),
+//            allStars = findStars(query = name),
         )
     }
 
-//    private fun calculatePage(
-//        stars: List<Star>,
-//        page: Int,
-//        limit: StarRepositoryLimit,
-//    )
 
-    private fun findStars(query: String?): List<Star> {
-        val found = mutableListOf<Star>()
-        return if (!query.isNullOrEmpty()) {
-            stars.forEach { star ->
-                if (star.name.lowercase().contains(query.lowercase())) {
-                    found.add(star)
-                }
-
-            }
-            found
-
-        } else {
-            emptyList()
-        }
-    }
+//    private fun findStars(query: String?): List<Star> {
+//        val found = mutableListOf<Star>()
+//        return if (!query.isNullOrEmpty()) {
+//            allstars.forEach { star ->
+//                if (star.name.lowercase().contains(query.lowercase())) {
+//                    found.add(Star)
+//                }
+//
+//            }
+//            found
+//
+//        } else {
+//            emptyList()
+//        }
+//    }
 }
