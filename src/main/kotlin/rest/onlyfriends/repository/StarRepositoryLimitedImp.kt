@@ -19,11 +19,11 @@ class StarRepositoryLimitedImp : StarRepositoryLimit {
             photos = mapOf(),
             fans = listOf(),
             types = listOf("latin", "folk", "electronica"),
-            ),
+        ),
         Star(
-            id = 1,
+            id = 2,
             name = "Cumbia Libertad",
-            image = "/images/1.jpg",
+            image = "/images/2.jpg",
             about = "here to share my (mostly sfw) noodles \uD83C\uDF5D follow my main page for daily lewds, nudes & tease videos ~ ... So ya wanna see my titties, huh? ⬇️ read this! ✨ New weekly content including: lewds, nudes, + tease gifs & tease vids ✨ \uD83C\uDF38 cute & sexy captions",
             rating = 4.5,
             power = 225,
@@ -34,11 +34,11 @@ class StarRepositoryLimitedImp : StarRepositoryLimit {
             photos = mapOf(),
             fans = listOf(),
             types = listOf("latin", "folk", "electronica"),
-            ),
+        ),
         Star(
-            id = 1,
+            id = 3,
             name = "Cumbia Libertad",
-            image = "/images/1.jpg",
+            image = "/images/3.jpg",
             about = "here to share my (mostly sfw) noodles \uD83C\uDF5D follow my main page for daily lewds, nudes & tease videos ~ ... So ya wanna see my titties, huh? ⬇️ read this! ✨ New weekly content including: lewds, nudes, + tease gifs & tease vids ✨ \uD83C\uDF38 cute & sexy captions",
             rating = 4.5,
             power = 225,
@@ -49,11 +49,11 @@ class StarRepositoryLimitedImp : StarRepositoryLimit {
             photos = mapOf(),
             fans = listOf(),
             types = listOf("latin", "folk", "electronica"),
-            ),
+        ),
         Star(
-            id = 1,
+            id = 4,
             name = "Cumbia Libertad",
-            image = "/images/1.jpg",
+            image = "/images/4.jpg",
             about = "here to share my (mostly sfw) noodles \uD83C\uDF5D follow my main page for daily lewds, nudes & tease videos ~ ... So ya wanna see my titties, huh? ⬇️ read this! ✨ New weekly content including: lewds, nudes, + tease gifs & tease vids ✨ \uD83C\uDF38 cute & sexy captions",
             rating = 4.5,
             power = 225,
@@ -64,11 +64,11 @@ class StarRepositoryLimitedImp : StarRepositoryLimit {
             photos = mapOf(),
             fans = listOf(),
             types = listOf("latin", "folk", "electronica"),
-            ),
+        ),
         Star(
-            id = 1,
+            id = 5,
             name = "Cumbia Libertad",
-            image = "/images/1.jpg",
+            image = "/images/5.jpg",
             about = "here to share my (mostly sfw) noodles \uD83C\uDF5D follow my main page for daily lewds, nudes & tease videos ~ ... So ya wanna see my titties, huh? ⬇️ read this! ✨ New weekly content including: lewds, nudes, + tease gifs & tease vids ✨ \uD83C\uDF38 cute & sexy captions",
             rating = 4.5,
             power = 225,
@@ -79,11 +79,11 @@ class StarRepositoryLimitedImp : StarRepositoryLimit {
             photos = mapOf(),
             fans = listOf(),
             types = listOf("latin", "folk", "electronica"),
-            ),
+        ),
         Star(
-            id = 1,
+            id = 6,
             name = "Cumbia Libertad",
-            image = "/images/1.jpg",
+            image = "/images/6.jpg",
             about = "here to share my (mostly sfw) noodles \uD83C\uDF5D follow my main page for daily lewds, nudes & tease videos ~ ... So ya wanna see my titties, huh? ⬇️ read this! ✨ New weekly content including: lewds, nudes, + tease gifs & tease vids ✨ \uD83C\uDF38 cute & sexy captions",
             rating = 4.5,
             power = 225,
@@ -94,11 +94,11 @@ class StarRepositoryLimitedImp : StarRepositoryLimit {
             photos = mapOf(),
             fans = listOf(),
             types = listOf("latin", "folk", "electronica"),
-            ),
+        ),
         Star(
-            id = 1,
+            id = 7,
             name = "Cumbia Libertad",
-            image = "/images/1.jpg",
+            image = "/images/7.jpg",
             about = "here to share my (mostly sfw) noodles \uD83C\uDF5D follow my main page for daily lewds, nudes & tease videos ~ ... So ya wanna see my titties, huh? ⬇️ read this! ✨ New weekly content including: lewds, nudes, + tease gifs & tease vids ✨ \uD83C\uDF38 cute & sexy captions",
             rating = 4.5,
             power = 225,
@@ -109,11 +109,11 @@ class StarRepositoryLimitedImp : StarRepositoryLimit {
             photos = mapOf(),
             fans = listOf(),
             types = listOf("latin", "folk", "electronica"),
-            ),
+        ),
         Star(
-            id = 1,
+            id = 8,
             name = "Cumbia Libertad",
-            image = "/images/1.jpg",
+            image = "/images/8.jpg",
             about = "here to share my (mostly sfw) noodles \uD83C\uDF5D follow my main page for daily lewds, nudes & tease videos ~ ... So ya wanna see my titties, huh? ⬇️ read this! ✨ New weekly content including: lewds, nudes, + tease gifs & tease vids ✨ \uD83C\uDF38 cute & sexy captions",
             rating = 4.5,
             power = 225,
@@ -124,11 +124,11 @@ class StarRepositoryLimitedImp : StarRepositoryLimit {
             photos = mapOf(),
             fans = listOf(),
             types = listOf("latin", "folk", "electronica"),
-            ),
+        ),
         Star(
-            id = 1,
+            id = 9,
             name = "Cumbia Libertad",
-            image = "/images/1.jpg",
+            image = "/images/9.jpg",
             about = "here to share my (mostly sfw) noodles \uD83C\uDF5D follow my main page for daily lewds, nudes & tease videos ~ ... So ya wanna see my titties, huh? ⬇️ read this! ✨ New weekly content including: lewds, nudes, + tease gifs & tease vids ✨ \uD83C\uDF38 cute & sexy captions",
             rating = 4.5,
             power = 225,
@@ -139,11 +139,11 @@ class StarRepositoryLimitedImp : StarRepositoryLimit {
             photos = mapOf(),
             fans = listOf(),
             types = listOf("latin", "folk", "electronica"),
-            ),
+        ),
         Star(
-            id = 1,
+            id = 10,
             name = "Cumbia Libertad",
-            image = "/images/1.jpg",
+            image = "/images/10.jpg",
             about = "here to share my (mostly sfw) noodles \uD83C\uDF5D follow my main page for daily lewds, nudes & tease videos ~ ... So ya wanna see my titties, huh? ⬇️ read this! ✨ New weekly content including: lewds, nudes, + tease gifs & tease vids ✨ \uD83C\uDF38 cute & sexy captions",
             rating = 4.5,
             power = 225,
@@ -154,11 +154,10 @@ class StarRepositoryLimitedImp : StarRepositoryLimit {
             photos = mapOf(),
             fans = listOf(),
             types = listOf("latin", "folk", "electronica"),
-            ),
+        ),
         Star(
-            id = 1,
+            id = 11,
             name = "Cumbia Libertad",
-            image = "/images/1.jpg",
             about = "here to share my (mostly sfw) noodles \uD83C\uDF5D follow my main page for daily lewds, nudes & tease videos ~ ... So ya wanna see my titties, huh? ⬇️ read this! ✨ New weekly content including: lewds, nudes, + tease gifs & tease vids ✨ \uD83C\uDF38 cute & sexy captions",
             rating = 4.5,
             power = 225,
@@ -169,11 +168,11 @@ class StarRepositoryLimitedImp : StarRepositoryLimit {
             photos = mapOf(),
             fans = listOf(),
             types = listOf("latin", "folk", "electronica"),
-            ),
+        ),
         Star(
-            id = 1,
+            id = 12,
             name = "Cumbia Libertad",
-            image = "/images/1.jpg",
+            image = "/images/12.jpg",
             about = "here to share my (mostly sfw) noodles \uD83C\uDF5D follow my main page for daily lewds, nudes & tease videos ~ ... So ya wanna see my titties, huh? ⬇️ read this! ✨ New weekly content including: lewds, nudes, + tease gifs & tease vids ✨ \uD83C\uDF38 cute & sexy captions",
             rating = 4.5,
             power = 225,
@@ -184,11 +183,11 @@ class StarRepositoryLimitedImp : StarRepositoryLimit {
             photos = mapOf(),
             fans = listOf(),
             types = listOf("latin", "folk", "electronica"),
-            ),
+        ),
         Star(
-            id = 1,
+            id = 13,
             name = "Cumbia Libertad",
-            image = "/images/1.jpg",
+            image = "/images/13.jpg",
             about = "here to share my (mostly sfw) noodles \uD83C\uDF5D follow my main page for daily lewds, nudes & tease videos ~ ... So ya wanna see my titties, huh? ⬇️ read this! ✨ New weekly content including: lewds, nudes, + tease gifs & tease vids ✨ \uD83C\uDF38 cute & sexy captions",
             rating = 4.5,
             power = 225,
@@ -199,11 +198,11 @@ class StarRepositoryLimitedImp : StarRepositoryLimit {
             photos = mapOf(),
             fans = listOf(),
             types = listOf("latin", "folk", "electronica"),
-            ),
+        ),
         Star(
-            id = 1,
+            id = 14,
             name = "Cumbia Libertad",
-            image = "/images/1.jpg",
+            image = "/images/14.jpg",
             about = "here to share my (mostly sfw) noodles \uD83C\uDF5D follow my main page for daily lewds, nudes & tease videos ~ ... So ya wanna see my titties, huh? ⬇️ read this! ✨ New weekly content including: lewds, nudes, + tease gifs & tease vids ✨ \uD83C\uDF38 cute & sexy captions",
             rating = 4.5,
             power = 225,
@@ -214,11 +213,11 @@ class StarRepositoryLimitedImp : StarRepositoryLimit {
             photos = mapOf(),
             fans = listOf(),
             types = listOf("latin", "folk", "electronica"),
-            ),
+        ),
         Star(
-            id = 1,
+            id = 15,
             name = "Cumbia Libertad",
-            image = "/images/1.jpg",
+            image = "/images/15.jpg",
             about = "here to share my (mostly sfw) noodles \uD83C\uDF5D follow my main page for daily lewds, nudes & tease videos ~ ... So ya wanna see my titties, huh? ⬇️ read this! ✨ New weekly content including: lewds, nudes, + tease gifs & tease vids ✨ \uD83C\uDF38 cute & sexy captions",
             rating = 4.5,
             power = 225,
@@ -229,11 +228,11 @@ class StarRepositoryLimitedImp : StarRepositoryLimit {
             photos = mapOf(),
             fans = listOf(),
             types = listOf("latin", "folk", "electronica"),
-            ),
+        ),
         Star(
-            id = 1,
+            id = 16,
             name = "Cumbia Libertad",
-            image = "/images/1.jpg",
+            image = "/images/16.jpg",
             about = "here to share my (mostly sfw) noodles \uD83C\uDF5D follow my main page for daily lewds, nudes & tease videos ~ ... So ya wanna see my titties, huh? ⬇️ read this! ✨ New weekly content including: lewds, nudes, + tease gifs & tease vids ✨ \uD83C\uDF38 cute & sexy captions",
             rating = 4.5,
             power = 225,
@@ -244,7 +243,7 @@ class StarRepositoryLimitedImp : StarRepositoryLimit {
             photos = mapOf(),
             fans = listOf(),
             types = listOf("latin", "folk", "electronica"),
-            ),
+        ),
 
         )
 
@@ -254,6 +253,32 @@ class StarRepositoryLimitedImp : StarRepositoryLimit {
     }
 
     override suspend fun searchStars(name: String): Response {
-        TODO("Not yet implemented")
+        return Response(
+            succes = true,
+            message = "Oke",
+            allStars = findStars(query = name),
+        )
+    }
+
+    private fun calculatePage(
+        stars: List<Star>,
+        page: Int,
+        limit: StarRepositoryLimit,
+    )
+
+    private fun findStars(query: String?): List<Star> {
+        val found = mutableListOf<Star>()
+        return if (!query.isNullOrEmpty()) {
+            stars.forEach { star ->
+                if (star.name.lowercase().contains(query.lowercase())) {
+                    found.add(star)
+                }
+
+            }
+            found
+
+        } else {
+            emptyList()
+        }
     }
 }
