@@ -9,6 +9,6 @@ interface StarRepository {
 
 
     suspend fun getAllStars(page: Int = 1): Response
-    suspend fun searchStars(name: String): Response
+    suspend fun searchStars(name: String?): Response
 
 }

@@ -296,7 +296,7 @@ class StarRepositoryImplementation : StarRepository {
         return mapOf(PREVIOUS_PAGE_KEY to prevPage, NEXT_PAGE_KEY to nextPage)
     }
 
-    override suspend fun searchStars(name: String): Response {
+    override suspend fun searchStars(name: String?): Response {
         return Response(
             succes = true,
             message = "Oke",
