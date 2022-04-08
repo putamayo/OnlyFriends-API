@@ -5,17 +5,27 @@ import io.ktor.http.*
 import io.ktor.response.*
 import io.ktor.routing.*
 import org.koin.ktor.ext.get
+import org.koin.ktor.ext.inject
 import rest.onlyfriends.models.Response
+import rest.onlyfriends.repository.StarRepository
 
 fun Route.getAllStars() {
 
+    val starRepository: StarRepository by inject()
 
     get("/onlyfriends/allstars") {
         try {
             val page = call.request.queryParameters["page"]?.toInt()
                 ?: 1 //elvis operator :)
             require(page in 1..4)
-            call.respond(message = page)
+
+            val apiResponse: Response = starRepository.getAllStars(page = page)
+
+            call.respond(
+                message = apiResponse,
+                status = HttpStatusCode.OK
+            )
+
 
         } catch (e: NumberFormatException) {
 
