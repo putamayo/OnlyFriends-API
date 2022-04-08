@@ -7,7 +7,7 @@ import rest.onlyfriends.models.Star
 const val NEXT_PAGE_KEY = "nextPage"
 const val PREVIOUS_PAGE_KEY = "prevPage"
 
-class StarRepositoryImplementation: StarRepository {
+class StarRepositoryImplementation : StarRepository {
 
     override val allstars by lazy {
         mapOf(
@@ -80,7 +80,7 @@ class StarRepositoryImplementation: StarRepository {
             types = listOf("latin", "folk", "electronica")
         )
     )
-     val page2 = listOf(
+    val page2 = listOf(
         Star(
             id = 5,
             name = "El Gran Poder",
@@ -142,7 +142,7 @@ class StarRepositoryImplementation: StarRepository {
             types = listOf("latin", "folk", "electronica"),
         ),
     )
-     val page3 = listOf(
+    val page3 = listOf(
         Star(
             id = 9,
             name = "Cumbia Cosmonauts",
@@ -204,7 +204,7 @@ class StarRepositoryImplementation: StarRepository {
             types = listOf("latin", "folk", "electronica"),
         ),
     )
-     val page4 = listOf(
+    val page4 = listOf(
         Star(
             id = 13,
             name = "Ondatrópica",
@@ -277,13 +277,14 @@ class StarRepositoryImplementation: StarRepository {
             allStars = allstars[page]!!
         )
     }
+
     private fun calculatePage(page: Int): Map<String, Int?> {
         var prevPage: Int? = page
         var nextPage: Int? = page
-        if(page in 1..4) {
+        if (page in 1..4) {
             nextPage = nextPage?.plus(1)
         }
-        if(page in 2..5) {
+        if (page in 2..5) {
             prevPage = prevPage?.minus(1)
         }
         if (page == 1) {
@@ -299,25 +300,28 @@ class StarRepositoryImplementation: StarRepository {
         return Response(
             succes = true,
             message = "Oke",
-//            allStars = findStars(query = name),
+            allStars = findStars(query = name)
+
         )
     }
 
 
-//    private fun findStars(query: String?): List<Star> {
-//        val found = mutableListOf<Star>()
-//        return if (!query.isNullOrEmpty()) {
-//            allstars.forEach { star ->
-//                if (star.name.lowercase().contains(query.lowercase())) {
-//                    found.add(Star)
-//                }
-//
-//            }
-//            found
-//
-//        } else {
-//            emptyList()
-//        }
-//    }
-
+    private fun findStars(query: String?): List<Star> {
+        val founded = mutableListOf<Star>()
+        return if (!query.isNullOrEmpty()) {
+            allstars.forEach { (_, allstars) ->
+                allstars.forEach { star ->
+                    if (star.name.lowercase().contains(query.lowercase())) {
+                        founded.add(star)
+                    }
+                }
+            }
+            founded
+        } else {
+        emptyList()
+        }
+    }
 }
+
+
+
