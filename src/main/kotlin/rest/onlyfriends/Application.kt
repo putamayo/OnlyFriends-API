@@ -3,6 +3,7 @@ package rest.onlyfriends
 import io.ktor.application.*
 import rest.onlyfriends.plugins.*
 
+
 fun main(args: Array<String>): Unit =
     io.ktor.server.netty.EngineMain.main(args)
 
@@ -13,4 +14,5 @@ fun Application.module() {
     configureSerialization()
     configureMonitoring()
     configureDefaultHeaders()
+    configureStatusPage()
 }
