@@ -1,1 +1,1 @@
-web: build/install/rest.onlyfriends.onlyfriends-rest/bin/rest.onlyfriends.onlyfriends-rest
+web: build/install/kotlinserver/bin/kotlinserver
